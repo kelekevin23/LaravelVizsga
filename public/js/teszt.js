@@ -41,10 +41,8 @@ class TesztKerdesek{
 
                 }else if (this.melyik === "v3"){
                     $(this.v3).css("background-color", "green")
-
                 } else {
                     $(this.v4).css("background-color", "green")
-
                 }
 
             } else {
@@ -57,9 +55,8 @@ class TesztKerdesek{
                 }else if (this.melyik === "v3"){
                     $(this.v3).css("background-color", "red")
 
-                } else {
+                } else if (this.melyik === "v4"){
                     $(this.v4).css("background-color", "red")
-
                 }
             }
         });

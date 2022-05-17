@@ -16,7 +16,8 @@ $(function () {
     
 
     $(".ujra").on("click", () =>{
-        location.reload();
+        $(".tarolo").empty();
+        ajaxhivas.selectAjax("/tesztek/kategoria", adatFelvesz);
     });
     function adatFelvesz(adatok) {
         const szuloElem = $(".tarolo");
